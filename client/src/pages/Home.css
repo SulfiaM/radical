@@ -1,0 +1,60 @@
+.styled-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+
+color: black;
+text-align: left;
+}
+
+.styled-table th,
+.styled-table tr {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-edit{
+    background-color: white;
+    color: blue;
+}
+
+.btn-delete{
+    background-color: white;
+    color: red;
+}
+
+ .btn-contact {
+    width: 100px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 12px;
+    margin-left: 0px;
+}

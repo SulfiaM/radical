@@ -1,0 +1,40 @@
+input[type="text"],
+input[type="email"],
+input[type="date"]
+{
+    
+    padding: 14px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    width: 40%;
+}
+
+input[type="submit"] {
+    width: 40%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    width: 40%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+} 
+
+input[type="submit"]:hover {
+    
+    background-color: black;
+}
